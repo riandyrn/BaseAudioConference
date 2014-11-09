@@ -1,0 +1,103 @@
+/***************************************************************************************/
+/*   TELKOM MEDIA CONFERENCE THEME V1.0                                                */
+/*                                                                                     */
+/*   This style is created in April, 2014 by Riandy R.N (riandyrn@gmail.com)           */
+/*   intended for media conference of PT. Telekomunikasi Indonesia Tbk. Before         */
+/*   take any changes please consult to me first to avoid any crash on                 */
+/*   the system.                                                                       */
+/*                                                                                     */
+/*   Best Regards,                                                                     */
+/*                                                                                     */
+/*   Riandy Rahman Nugraha                                                             */
+/*                                                                                     */
+/***************************************************************************************/
+
+body 
+{
+	background-color: #E30E05;
+}
+img#logo-telkom
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15%;
+	height: auto;
+}
+#jumbotron
+{
+	text-align: center;
+}
+#jumbotron > img, #tab-login, #account_type_select
+{
+	float: none;
+}
+#tab-login
+{
+	margin: 0 auto;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus
+{
+	color: #CBCBCB;
+}
+.nav-tabs > li > a
+{
+	color: #D4C1C1;
+}
+
+.tab-content
+{
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 5px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+}
+.nav-tabs
+{
+	border-bottom: none;
+}
+
+.form-control
+{
+	
+	box-shadow: none;
+	moz-box-shadow: none;
+	height: 40px;
+	width: 90%;
+	display: block;
+	margin: 5px auto;
+}
+.form-control:first-child
+{
+	margin-top: 0;
+}
+#button_login
+{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.form-login
+{
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+#copyright
+{
+	text-align: center;
+	color: #fff;
+	opacity: 0.9;
+}
+
+#account_type_select
+{
+	width: 50%;
+	height: 35px;
+	font-size: 0.9em;
+}
